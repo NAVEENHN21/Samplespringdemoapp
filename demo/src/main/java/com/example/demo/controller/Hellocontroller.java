@@ -13,4 +13,9 @@ public class Hellocontroller {
 		return "Hello world";
 		
 	}
+	@GetMapping("/bye")
+	public String saybye() {
+		return "Welcome To the new EC2 Instances, Thanks";
+		
+	}
 }
